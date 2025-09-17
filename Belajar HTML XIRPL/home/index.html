@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML</title>
+</head>
+<body>
+     <main>
+        <p>X<sub>2</sub> + X<sub>2</sub></p>
+<!-- LIST--> <br>
+        <ol type="I">
+            <li>Makan</li>
+            <li>Main</li>
+            <li>Tidur</li>
+        </ol>
+        <ul type="square">
+            <li>Makan</li>
+            <li>Main</li>
+            <li>Tidur</li>
+        </ul>
+<!--  Daftar Deskripsiv--> <br>
+
+          <dl>
+            <dt>disebuah rumah</dt>
+            <dt>didalam</dt>
+            <dt>terdapat sebuah manusia</dt>
+          </dl>
+
+<!-- Table--> <br>
+
+    <table border= "1px solid black;">
+        <tr>        
+            <th>nama</th>
+            <th colspan="2">kelas</th>
+        </tr>
+        <tr>
+            <td>rafa</td>
+            <td>XMIpa</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Mikay</td>
+            <td>XMIpa</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+<!--Image--> <br>
+
+    <img src="/imgAssets/pak.jpg" alt="Presiden">
+
+<!--Video--> <br>
+
+    <video controls>
+        <source src="/VideoAssets/Burung.mp4" type="video/mp4" />
+        Browsermu tidak mendukung tag ini, upgrade dong!
+    </video>
+
+<!--Audio--> <br>
+
+    <audio controls>
+        <source src="/audioAssets/Backburner.mp3" type="audio/mp3">
+        Browsermu tidak mendukung tag audio, upgrade dong!
+    </audio>
+
+<!--Justify--> <br>
+
+    <p align ="right">Home</p>
+    <p align ="left">MailBox</p>
+    <p align ="center">About You</p>
+    <p align ="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, voluptate eum expedita esse illo animi libero, quod fuga optio necessitatibus incidunt dolorem praesentium. Vel placeat dolor incidunt, quo nulla omnis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni similique temporibus laborum autem ex, obcaecati, sunt quod sint vitae quaerat laboriosam facere, alias consequuntur sit laudantium dolor tempore rerum earum!Loremlorem</p>
+
+<!--Form--> <br>
+
+    Nama Lengkap
+    <br>
+        <input type="text" name="username">
+    <br>
+    Password
+    <br>
+        <input type="password" name="password">
+    <br>
+    Email
+    <br>
+        <input type"Email" name="email">
+    <br>
+        <input type="button" value="login">
+    </main>
+
+<!--CheckBox-->
+
+    <input type="checkbox" checked name="Ekskul Pramuka"> Pramuka <br>
+    <input type="checkbox" checked name="Ekskul Paskibra"> Paskibra <br>
+    <input type="checkbox" checked name="Ekskul PMR"> PMR <br>
+    <input type="checkbox" checked name="Ekskul Futsal"> Futsal <br>
+    <input type="checkbox" checked name="Ekskul Basket"> Basket <br>
+
+<!--Date-->
+
+    <input type="date" name="Tanggal Lahir"> <br>
+
+<!--Membuat File-->
+
+    <form>
+        Pilih Sebuah File <input type="file" name="data1"> <br> <br>
+        Pilih Beberapa File <input type="file" multiple name="data2"> <br> <br>
+    </form>
+
+<!--Palet Warna-->
+
+    <form>
+        <h3>Pilih Warna</h3>
+        <input type="color" name="color">
+    </form>
+
+<!--Radio-->
+
+    <form>
+        <h3>Pilih rentang umur</h3>
+        <input type="radio" name="umur">10 - 17 <br>
+        <input type="radio" name="umur">18 - 23 <br>
+        <input type="radio" name="umur">23 - 30 <br>
+    </form>
+
+<!--Membuat Element Select-->
+
+    Pilih Golongan Darah
+    <select>
+        <option value="1">Golongan Darah o</option>
+        <option value="2">Golongan Darah A</option>
+        <option value="3">Golongan Darah B</option>
+        <option value="4">Golongan Darah AB</option>
+    </select>
+</body>
+</html>
